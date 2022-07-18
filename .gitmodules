@@ -1,0 +1,4 @@
+[submodule "data-formats"]
+	path = data-formats
+	url = https://github.com/stop-covid19-kyoto/covid19-kyoto-structs-rs.git
+	branch = r1.0.0

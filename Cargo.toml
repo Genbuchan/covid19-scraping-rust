@@ -1,19 +1,20 @@
 [package]
 name = "covid19-scraping-rust"
-version = "1.0.0"
-edition = "2018"
+version = "3.0.0"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 calamine = { version = "0.18.0", features = ["dates"] }
-clap = { version = "3.0.13", features = ["derive"] }
+clap = { version = "3.2.12", features = ["derive"] }
 chrono = "0.4.19"
+data-formats = { version = "1.0.0", path = "./data-formats" }
 imap = "2.4.1"
-mail-parser = "0.4.4"
-native-tls = "0.2.8"
-oauth2 = "4.2.0"
-openssl = { version = "0.10", features = ["vendored"] }
-regex = "1.5"
-serde = "1.0"
-serde_json = "1.0"
+mail-parser = "0.5.0"
+native-tls = "0.2.10"
+oauth2 = "4.2.3"
+openssl = { version = "0.10.41", features = ["vendored"] }
+regex = "1.5.6"
+serde = "1.0.139"
+serde_json = "1.0.82"
